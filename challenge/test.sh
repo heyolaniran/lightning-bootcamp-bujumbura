@@ -16,7 +16,7 @@ echo
 echo " ------------------------------------------------------"
 echo "| Challenge 01 - Créez votre portefeuille d'exploration |"
 echo " ------------------------------------------------------"
-## Votre tâche ici est d'utiliser bitcoin-cli pour créer le portefeuille d'exploration nommé "lnbootcampctn"
+## Votre tâche ici est d'utiliser bitcoin-cli pour créer le portefeuille d'exploration nommé "bujumbura"
 # ECRIVEZ VOTRE SOLUTION SUR LA LIGNE CI-DESSOUS
 
 

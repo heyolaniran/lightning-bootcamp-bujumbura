@@ -20,7 +20,7 @@ echo " ------------------------------------------------------"
 # ECRIVEZ VOTRE SOLUTION SUR LA LIGNE CI-DESSOUS
 
 
-ensure_wallet_available "lnbootcampctn" false
+ensure_wallet_available "bujumbura" false
 
 echo "Créez votre portefeuille 'tresor' contenant les trésors cachés"
 # ECRIVEZ VOTRE SOLUTION SUR LA LIGNE CI-DESSOUS
@@ -114,7 +114,7 @@ echo "Vous avez découvert de nouveaux tresors"
 echo "Calculez le solde de votre portefeuille d'exploration"
 # ECRIVEZ VOTRE SOLUTION SUR LA LIGNE CI-DESSOUS
 
-NEW_BALANCE=$(bitcoin-cli -regtest -rpcwallet=lnbootcampctn getbalance)
+NEW_BALANCE=$(bitcoin-cli -regtest -rpcwallet=bujumbura getbalance)
 
 check_cmd "Vérification de solde après minage"
 echo "Votre solde est maintenant de $NEW_BALANCE btc"
